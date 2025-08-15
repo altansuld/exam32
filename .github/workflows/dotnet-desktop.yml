@@ -2,7 +2,7 @@ name: .NET Core CI
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: [ "develop", "staging" ]
   pull_request:
     branches: [ "staging" ]
 
