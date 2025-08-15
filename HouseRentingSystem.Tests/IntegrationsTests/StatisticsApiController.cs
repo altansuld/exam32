@@ -24,6 +24,7 @@ namespace HouseRentingSystem.Tests.IntegrationsTests
             Assert.NotNull(result);
             Assert.That(result.TotalHouses, Is.EqualTo(10));
             Assert.That(result.TotalRents, Is.EqualTo(6));
+            Assert.That(result.TotalHouses, Is.CreaterThan(3));
         }
     }
 }
