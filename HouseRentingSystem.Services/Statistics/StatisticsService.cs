@@ -12,6 +12,7 @@ namespace HouseRentingSystem.Services.Statistics
 
         public StatisticsServiceModel Total()
         {
+            // staging code chagnen
             var totalHouses = this.data.Houses.Count();
             var totalRents = this.data.Houses
                 .Where(h => h.RenterId != null).Count();
@@ -19,6 +20,7 @@ namespace HouseRentingSystem.Services.Statistics
             return new StatisticsServiceModel
             {
                 TotalHouses = totalHouses,
+                
                 TotalRents = totalRents
             };
         }
