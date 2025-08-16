@@ -18,9 +18,6 @@ namespace HouseRentingSystem.Services.Statistics
             return new StatisticsServiceModel
             {
                 TotalHouses = totalHouses,
-
-                
-
                 TotalRents = totalRents
             };
         }
